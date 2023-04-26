@@ -8,7 +8,7 @@
 - Fernández	Agustín
 
 # Proyecto: Semafaro para no videntes.
-![Tinkercad](./imagenes/adruino.png)
+![Tinkercad](./imagenes/adrduino.png)
 
 # Descripción
 Se desarrollo un semáforo para personas no videntes, que al estar en rojo emite una señal sonora para dar la advertencia de no cruzar. Al estar en amarillo o verde no suena dicha señal dándole a entender al peatón que puede cruzar.  
