@@ -1,6 +1,6 @@
 # Integrantes
 
-- Barbizan	Franco
+- Barbizan	Franco.
 - García	Angeles Belen 
 - Dopiralski	martin
 - Costantini	Nicolas
@@ -11,23 +11,31 @@
 ![Tinkercad](./imagenes/arduino.png)
 
 # Descripción
-Se desarrollo un semáforo para personas no videntes, que al estar en rojo emite una señal sonora para dar la advertencia de no cruzar. Al estar en amarillo o verde no suena dicha señal dándole a entender al peatón que puede cruzar.  
+Se desarrollo un semáforo para personas no videntes, que al estar en rojo emite una señal sonora para dar la advertencia de no cruzar. Al estar en amarillo el tono de la señal de advertencia cambia. Cuando es verde no suena dicha señal dándole a entender al peatón que puede cruzar.
+En simultaneo, durante el tiempo que tanto leds rojas como amarillas estan encendidas, las mismas se encuentran titilando.   
 
 # Función principal
 ![codigo](./imagenes/codigo.png)
 
-Esta función se encarga de encender y apagar los leds. Recibe como parámetros los leds que queremos prender y el tiempo que queremos que duren encendidas. Dentro se ejecutan dichas funciones con los parámetros que dimos previamente. 
+Esta funcion hace que suene el buzzer y titilen los leds ROJOS o VERDES segun las iteraciones, los milisegundos del Buzzer y el tiempo de delay. (en caso del VERDE, hay que ingresar "0" a la frecuencia para que no suene).
+Recibe 8 parametros:
+-cantidad de iteraciones en el "for"
+-primer led - segundo led
+-pin del buzzer
+-frecuencia del tono del buzzer
+-milisegundos del buzzer
+-iteracion que le das al "if" para titilar las leds
+-tiempo que mantiene el buzzer
+-los leds encendidos o apagados
 
 # Link al proyecto 
 
-- Barbizan	Franco : https://www.tinkercad.com/things/4zQzBDBJoe5-amazing-jaiks/editel?sharecode=eK_zyahVRuvKXtx5iRV-DLCYxDszXCJFaIqt6lND1IU
+- Barbizan	Franco : https://www.tinkercad.com/things/5E3J4jxkiRR-dojo-e-ejercicio-2-prototipo-2/editel?sharecode=WoGBVerlX85aI-H6U8h8DyVLLxKHdQa-XrGEwjXtwzk
 
-- García	Angeles Belen : https://www.tinkercad.com/things/dCAwvjqxFG9-copy-of-spd-angeles-belen-garcia-clase-2-ejercicio2-5/editel?sharecode=twt6y5QrDjUsAywyiegseosDuf9UHssMoV-2Rikc_sw
+- García	Angeles Belen : https://www.tinkercad.com/things/kF5q4uobuEr-spd-angeles-belen-garcia-dojo-e-parte-2/editel?sharecode=Gj9gbn6f7O4leR7J86BNBvJUjUDXwQ0c_CCfbnxFVIo
 
-- Dopiralski	martin : https://www.tinkercad.com/things/9mGSZdzGrVV-copy-of-clase-2-ejercicio-4/editel?sharecode=kGCKjzJSbK3VLm1Wp0AoWtrlQbTCTca3awe8K8zgmFI
+- Dopiralski	martin : https://www.tinkercad.com/things/62ZeCfPxR5e-copy-of-martindopiralski-dojo-11/editel?sharecode=fHA6TBlPePwfwvt6uKrhi-o8y38g3-U8Jv5DRdVO00g
 
-- Costantini	Nicolas : https://www.tinkercad.com/things/aRwxxjrkX0N-copy-of-nicolas-costantini-ej-2-5-clase-2-spd/editel?sharecode=WVUlkDQDEW7LZ7evJeYjH-iqIPCyfSY_5ZnxhjgRXTY
+- Costantini	Nicolas : https://www.tinkercad.com/things/gKqJUNhxicJ-dojo-e-nicolas-costantini-ej-2/editel?sharecode=FZlGDAmebU5phcmUJOEQncdPiY9OWsxQcbJdW7ub-j4
 
-- Espinoza	Fernando : https://www.tinkercad.com/things/gUhVIP79IUL
-
-- Fernández	Agustín : https://www.tinkercad.com/things/30CUyE0fQbE-copy-of-agustin-fernandez-2-5/editel?sharecode=Sg20dfxsCjN2FRNyp5_0iDHWZmPIJbE_-oBjh4fUymo
+- Espinoza	Fernando : https://www.tinkercad.com/things/estin-fernandez-2-5/editel?sharecode=Sg20dfxsCjN2FRNyp5_0iDHWZmPIJbE_-oBjh4fUymo
