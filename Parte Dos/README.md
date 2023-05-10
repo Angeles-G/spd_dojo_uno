@@ -11,7 +11,8 @@
 ![Tinkercad](./imagenes/arduino.png)
 
 # Descripción
-Se desarrollo un semáforo para personas no videntes, que al estar en rojo emite una señal sonora para dar la advertencia de no cruzar. Al estar en amarillo o verde no suena dicha señal dándole a entender al peatón que puede cruzar.  
+Se desarrollo un semáforo para personas no videntes, que al estar en rojo emite una señal sonora para dar la advertencia de no cruzar. Al estar en amarillo el tono de la señal de advertencia cambia. Cuando es verde no suena dicha señal dándole a entender al peatón que puede cruzar.
+En simultaneo, durante el tiempo que tanto leds rojas como amarillas estan encendidas, las mismas se encuentran titilando.   
 
 # Función principal:
 ![codigo](./imagenes/codigo.png)
